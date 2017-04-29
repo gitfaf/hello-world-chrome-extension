@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+
+  "name": "helloWorld",
+  "description": "A simple hello world!",
+
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [ "tabs" ]
+}
