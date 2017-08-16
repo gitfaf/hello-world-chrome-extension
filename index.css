@@ -3,6 +3,7 @@ body {
   min-height: 300px;
   background-color: transparent;
 }
+
 #greeting {
   color: #333;
   background-color: #AAA;

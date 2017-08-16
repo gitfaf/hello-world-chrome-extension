@@ -1,6 +1,6 @@
 var EVENT_DOM_CONTENT_LOADED = 'DOMContentLoaded';
 
-function getGreetingId () {
+function getGreetingId() {
   return 'greeting';
 }
 
@@ -8,15 +8,15 @@ function getGreeting() {
   return 'Hello, World!';
 }
 
-function getGreetingElement () {
+function getGreetingElement() {
   return document.getElementById(getGreetingId());
 }
 
-function renderGreeting () {
+function renderGreeting() {
   getGreetingElement().textContent = getGreeting();
 }
 
-function fireWhenDOMContentIsLoaded () {
+function fireWhenDOMContentIsLoaded() {
   renderGreeting();
 }
 
